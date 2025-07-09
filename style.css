@@ -82,11 +82,36 @@ h2{
 .apple,.mango,.cherry{
     margin-bottom: 39px;
     background-color: brown;
-    color:aqua;
-    margin-left: 55px;
-    padding:5px;
-    font-size: 10px;
-    height:55px;
-    width: 350px;
+   
+  
+    margin-right: 20px;
+    margin-left: 25px;
+    padding:2px;
+    font-size: 20px;
+    height:50px;
+    width: 400px;
     border-radius: 10px;
+    text-align: left;
+    
+}
+
+
+
+.apple button{
+   width: 60px;
+   height: 20px;
+
+
+border-radius: 10px;
+margin-bottom: 2px;
+display: inline-flex;
+}
+.delete{
+   
+margin-right:5px;
+background-color: rgb(197, 9, 9);
+  
+}
+.edit{
+    margin-left: 170px;
 }
