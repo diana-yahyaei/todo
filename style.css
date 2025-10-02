@@ -1,121 +1,93 @@
-body{
-    margin:0;
-    padding:0;
-   background:linear-gradient(to right,#1df37d,#05e1cf,#1f93f3);
-  
-    
-
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #22f18a, #ea22f1, #05e1cf, #d01ff3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-transform: capitalize;
 }
-.task{
- margin-bottom: 30px;
-display: inline-block;
-margin-right: -4px;
-    border-radius: 10px 0 0 10px;
+.task {
+  margin-bottom: 20px;
+  padding-left: 10px;
+
+  border-radius: 10px 0 0 10px;
 }
-.task input{
-flex: 1;
-   font-size: 15px ;
-     margin-left: 10px;
-    width: 364px;
-    height: 30px;
-
+.task input {
+  font-size: 15px;
+  border: 1px solid gray;
+  width: 350px;
+  height: 35px;
 }
-.add{
-
-  
-    border-radius: 0 10px 10px 0;
-    height: 38px;
-    margin-right: 20px;
-    width: 44px;
- 
-  
-    
+.task:focus {
+  outline: none;
 }
-
-
-
-/*.apple{
-padding:10px ;
-   margin-top: 50px;
- margin-left: 30px;
-    margin-right: 10px;
-display:flex;
-border-radius: 10px ;
-width: 400px;
-height: 30px;
-font-size: 20px;
-background-color: crimson;
-}*/
-.box{
-text-align: center;
-background-color: white;
-height: 450px;
-width: 500px;
-margin-left: 500px;
-margin-top: 125px;
-
-padding-top: 2px;
-border-radius: 9px;
-
-
+.add {
+  border-radius: 0 10px 10px 0;
+  height: 40px;
+  width: 44px;
+  outline: none;
+  border: 1px solid gray;
+  background-color: white;
 }
-h2{
-    font-size: 25px;
-    font-family: Arial black;
+label {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  text-align: center;
+  background-color: white;
+  height: 450px;
+  width: 500px;
+  box-shadow: 2px 2px 3px red;
+  padding-top: 2px;
+  border-radius: 9px;
+}
+h2 {
+  font-size: 25px;
+  font-family: Arial black;
 }
 
-
-
-.apple,.mango,.cherry{
-    margin-bottom: 40px;
-    background-color: rgb(189, 186, 186);
-   padding-left: 10px;
-  display: inline-flex;
-    margin-right: 23px;
-    margin-left: 20px;
- 
-
-    font-size: 20px;
-    height:53px;
-    width: 425px;
-    border-radius: 8px;   
-}
-.apple{
-    padding-top: 7px;
-    
-    text-align: left;
-}
-.mango{
-    padding-bottom: 15px;
-    padding-top: 3px;
-
-}
-.cherry{
-     padding-bottom: 15px;
-    padding-top: 3px;
+.apple,
+.mango,
+.cherry {
+  margin-bottom: 40px;
+  background-color: rgb(189, 186, 186);
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 20px;
+  height: 65px;
+  padding-right: 20px;
+  border-radius: 8px;
 }
 
-.delete{
-   width: 80px;
-   height:40px;
-color: white;
-background-color: rgb(43, 69, 219);
-  margin-right: 10px;
-border-radius: 10px;
-font-size: 15px;
-   
+.delete {
+  width: 80px;
+  height: 40px;
+  color: white;
+  border: 1px solid #d01ff3;
+  background-color: #d01ff3;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
 }
-.edit{
-    margin-left: 210px;
-    background-color: rgb(49, 212, 84);
-    border-radius: 10px;
-    height: 40px;
-    width: 60px;
-    color: white;
-    font-size: 15px;
+.edit {
+  border-radius: 10px;
+  height: 40px;
+  width: 60px;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  background-color: #22f18a;
+  border: 1px solid #22f18a;
 }
-p{
-    font-size: 20px;
-    padding-bottom: 3px;
-    padding-left: 3px;
+p {
+  font-size: 20px;
+  padding-bottom: 3px;
+  padding-left: 3px;
 }
