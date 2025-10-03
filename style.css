@@ -91,3 +91,33 @@ p {
   padding-bottom: 3px;
   padding-left: 3px;
 }
+@media screen and (width <= 500px) {
+  .task {
+    padding-left: 10px;
+  }
+  .task input {
+    width: 200px;
+    height: 35px;
+  }
+
+  .delete {
+    width: 50px;
+
+    font-size: 13px;
+  }
+  .edit {
+    width: 50px;
+
+    font-size: 15px;
+  }
+}
+@media screen and (height<=400px) {
+  .box {
+    padding-top: 100px;
+    height: 33rem;
+  }
+
+  h2 {
+    margin-top: 100px;
+  }
+}
