@@ -111,13 +111,10 @@ p {
     font-size: 15px;
   }
 }
-@media screen and (height<=400px) {
+@media screen and (height<=450px) {
   .box {
     padding-top: 100px;
     height: 33rem;
-  }
-
-  h2 {
     margin-top: 100px;
   }
 }
